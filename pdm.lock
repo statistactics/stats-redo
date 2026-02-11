@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:631bae8c918990a4f2e3fdecb0d31e3b9047b410dafe3d58d476e71d44da0c4a"
+content_hash = "sha256:641a49e76b4470b20df28b8018a984b325fe463c950427aa7c01cf2b305e2233"
 
 [[metadata.targets]]
 requires_python = "==3.13.*"
@@ -357,7 +357,7 @@ files = [
 
 [[package]]
 name = "ipykernel"
-version = "7.1.0"
+version = "7.2.0"
 requires_python = ">=3.10"
 summary = "IPython Kernel for Jupyter"
 groups = ["default"]
@@ -366,19 +366,19 @@ dependencies = [
     "comm>=0.1.1",
     "debugpy>=1.6.5",
     "ipython>=7.23.1",
-    "jupyter-client>=8.0.0",
-    "jupyter-core!=5.0.*,>=4.12",
+    "jupyter-client>=8.8.0",
+    "jupyter-core!=6.0.*,>=5.1",
     "matplotlib-inline>=0.1",
     "nest-asyncio>=1.4",
     "packaging>=22",
     "psutil>=5.7",
     "pyzmq>=25",
-    "tornado>=6.2",
+    "tornado>=6.4.1",
     "traitlets>=5.4.0",
 ]
 files = [
-    {file = "ipykernel-7.1.0-py3-none-any.whl", hash = "sha256:763b5ec6c5b7776f6a8d7ce09b267693b4e5ce75cb50ae696aaefb3c85e1ea4c"},
-    {file = "ipykernel-7.1.0.tar.gz", hash = "sha256:58a3fc88533d5930c3546dc7eac66c6d288acde4f801e2001e65edc5dc9cf0db"},
+    {file = "ipykernel-7.2.0-py3-none-any.whl", hash = "sha256:3bbd4420d2b3cc105cbdf3756bfc04500b1e52f090a90716851f3916c62e1661"},
+    {file = "ipykernel-7.2.0.tar.gz", hash = "sha256:18ed160b6dee2cbb16e5f3575858bc19d8f1fe6046a9a680c708494ce31d909e"},
 ]
 
 [[package]]
@@ -468,7 +468,7 @@ files = [
 
 [[package]]
 name = "kagglehub"
-version = "0.4.1"
+version = "0.4.3"
 requires_python = ">=3.10"
 summary = "Access Kaggle resources anywhere"
 groups = ["default"]
@@ -480,8 +480,8 @@ dependencies = [
     "tqdm",
 ]
 files = [
-    {file = "kagglehub-0.4.1-py3-none-any.whl", hash = "sha256:841dcd930d1fe87ff223a99a707eb9912a48f5f5241866f9bc4e159217664a91"},
-    {file = "kagglehub-0.4.1.tar.gz", hash = "sha256:43b3fa3688fad0c47ef5ab05d3fa440770273b408ca4ceac310a6678e54a531e"},
+    {file = "kagglehub-0.4.3-py3-none-any.whl", hash = "sha256:ff17b4b5c873898995ef1e02c90083f7f60dd82080aca20e98b47ac5362c7128"},
+    {file = "kagglehub-0.4.3.tar.gz", hash = "sha256:7969ae7574f5524dfa0f4fdb362229e1187cd5ea0dc0ef6e7ea5ca23478877ee"},
 ]
 
 [[package]]
